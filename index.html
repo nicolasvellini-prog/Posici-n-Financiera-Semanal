@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posición Financiera Semanal — Moscuzza</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<style>
+  :root{
+    --paper:#F3F5F4;
+    --surface:#FFFFFF;
+    --ink:#1C2321;
+    --ink-soft:#5F6B67;
+    --teal:#1F6F63;
+    --teal-dark:#123F38;
+    --brick:#B5452F;
+    --brick-dark:#7C2E1F;
+    --line:#DCE2DF;
+    --line-strong:#AEBAB5;
+    --amber:#C08A2E;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system, "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;}
+
+  .wrap{
+    max-width:1220px;
+    margin:0 auto;
+    padding:40px 28px 80px;
+  }
+  header.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    border-bottom:3px solid var(--teal);
+    padding-bottom:18px;
+    margin-bottom:22px;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  .brand-eyebrow{
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:0.08em;
+    color:var(--ink-soft);
+    margin:0 0 6px 0;
+  }
+  h1{
+    font-size:27px;
+    margin:0;
+    font-weight:800;
+    color:var(--teal-dark);
+    letter-spacing:-0.02em;
+  }
+  .toolbar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    font-family:inherit;
+    font-size:13px;
+    font-weight:600;
+    padding:9px 16px;
+    border-radius:6px;
+    border:1.5px solid var(--teal);
+    background:var(--surface);
+    color:var(--teal-dark);
+    cursor:pointer;
+    transition:background .15s, color .15s;
+  }
+  .btn:hover{background:var(--teal); color:#fff;}
+  .btn.primary{background:var(--teal); color:#fff;}
+  .btn.primary:hover{background:var(--teal-dark);}
+  .btn.small{padding:4px 10px; font-size:11.5px; border-radius:4px;}
+  input[type="file"]{display:none;}
+
+  .fx-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-bottom:22px;
+  }
+  .fx-row input{
+    font-family:inherit;
+    font-size:14px;
+    font-weight:600;
+    width:110px;
+    padding:6px 9px;
+    border:1.5px solid var(--line-strong);
+    border-radius:6px;
+    background:var(--surface);
+    color:var(--ink);
+  }
+  .fx-row input:focus{outline:none; border-color:var(--teal);}
+
+  /* --- Saldo semanal banner --- */
+  .balance-banner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:16px;
+    border-radius:10px;
+    padding:22px 26px;
+    margin-bottom:32px;
+    border:1.5px solid var(--line);
+    background:var(--surface);
+  }
+  .balance-banner.surplus{border-color:var(--teal); background:#EDF6F3;}
+  .balance-banner.deficit{border-color:var(--brick); background:#FBEEEC;}
+  .balance-label{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:0 0 6px 0;
+  }
+  .balance-figures{display:flex; gap:32px; flex-wrap:wrap;}
+  .balance-figure .amount{
+    font-size:30px;
+    font-weight:800;
+    letter-spacing:-0.01em;
+  }
+  .balance-figure .unit{font-size:13px; font-weight:600; color:var(--ink-soft); margin-left:4px;}
+  .balance-banner.surplus .amount{color:var(--teal-dark);}
+  .balance-banner.deficit .amount{color:var(--brick-dark);}
+  .balance-verdict{
+    font-size:13px;
+    font-weight:700;
+    padding:6px 14px;
+    border-radius:20px;
+    white-space:nowrap;
+  }
+  .balance-banner.surplus .balance-verdict{background:var(--teal); color:#fff;}
+  .balance-banner.deficit .balance-verdict{background:var(--brick); color:#fff;}
+
+  .empty-state{
+    border:1.5px dashed var(--line-strong);
+    border-radius:8px;
+    padding:44px 24px;
+    text-align:center;
+    color:var(--ink-soft);
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:20px;
+  }
+  .empty-state strong{color:var(--ink);}
+
+  section.block{margin-bottom:44px;}
+  .block-title{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--teal);
+    border-bottom:2px solid var(--line);
+    padding-bottom:8px;
+    margin-bottom:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .block-title .sub{
+    font-weight:500;
+    text-transform:none;
+    letter-spacing:0;
+    color:var(--ink-soft);
+    font-size:12px;
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:13.5px;
+  }
+  th, td{
+    padding:8px 10px;
+    text-align:right;
+    white-space:nowrap;
+  }
+  th{
+    font-weight:700;
+    font-size:11.5px;
+    letter-spacing:0.02em;
+    color:var(--ink-soft);
+    border-bottom:1.5px solid var(--line-strong);
+  }
+  td, td.mono{font-family:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;}
+  td.label, th.label{
+    text-align:left;
+    font-family:inherit;
+    font-weight:600;
+    color:var(--ink);
+    white-space:normal;
+  }
+  tbody tr{border-bottom:1px solid var(--line);}
+  tbody tr:last-child{border-bottom:none;}
+  tr.total-row td, tr.total-row th{
+    border-top:2px solid var(--teal);
+    font-weight:800;
+    color:var(--teal-dark);
+  }
+  tr.usd-row td{
+    color:var(--amber);
+    font-style:italic;
+  }
+  tr.usd-row td.label{font-style:normal; color:var(--ink-soft); font-weight:600; font-size:12px;}
+  tr.manual-row td.label{color:var(--teal-dark);}
+  td.zero{color:var(--line-strong);}
+  .disp-table td, .disp-table th{font-size:14px;}
+  .disp-table .cell-input{
+    font-family:"SFMono-Regular", Consolas, monospace;
+    font-size:14px;
+    text-align:right;
+    border:none;
+    background:transparent;
+    color:var(--ink);
+    width:100%;
+    padding:2px 0;
+  }
+  .disp-table .label-input{
+    font-family:inherit;
+    font-weight:600;
+    font-size:13.5px;
+    text-align:left;
+  }
+  .disp-table .cell-input:focus, .egresos-manual-input:focus{outline:none; background:#FDF6E3;}
+  .egresos-manual-input{
+    font-family:"SFMono-Regular", Consolas, monospace;
+    font-size:13.5px;
+    text-align:right;
+    border:none;
+    border-bottom:1px dashed var(--line-strong);
+    background:transparent;
+    color:var(--teal-dark);
+    width:100%;
+    padding:2px 0;
+  }
+  .row-remove{
+    border:none;
+    background:none;
+    color:var(--line-strong);
+    cursor:pointer;
+    font-size:16px;
+    line-height:1;
+    padding:0 4px;
+  }
+  .row-remove:hover{color:var(--brick);}
+
+  footer.note{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    border-top:1px solid var(--line);
+    padding-top:14px;
+    margin-top:36px;
+  }
+
+  @media print{
+    body{background:#fff;}
+    .toolbar, .fx-row .btn, input[type="file"], .no-print{display:none !important;}
+  }
+  @media (max-width:720px){
+    .wrap{padding:24px 14px 60px;}
+    header.top{flex-direction:column; align-items:flex-start;}
+    table{font-size:11px;}
+    th, td{padding:5px 6px;}
+    .balance-figures{gap:18px;}
+    .balance-figure .amount{font-size:22px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap" id="dashboard-root">
+
+  <header class="top">
+    <div>
+      <p class="brand-eyebrow">PEDRO MOSCUZZA E HIJOS S.A. — TESORERÍA</p>
+      <h1>Posición financiera semanal</h1>
+    </div>
+    <div class="toolbar no-print">
+      <label class="btn" for="excel-input-1">Cargar Presupuesto</label>
+      <input type="file" id="excel-input-1" accept=".xlsx,.xls">
+      <label class="btn" for="excel-input-2">Cargar Alfonso</label>
+      <input type="file" id="excel-input-2" accept=".xlsx,.xls">
+      <button class="btn primary" id="export-pdf">Descargar PDF</button>
+    </div>
+  </header>
+
+  <div class="fx-row no-print">
+    <span>Tipo de cambio (ARS por USD):</span>
+    <input type="number" id="fx-rate" step="0.01" value="1500">
+  </div>
+
+  <div class="balance-banner" id="balance-banner">
+    <div>
+      <p class="balance-label">Saldo de la semana — disponibilidad menos gastos</p>
+      <div class="balance-figures">
+        <div class="balance-figure">
+          <span class="amount mono" id="balance-ars">$ 0,00</span>
+        </div>
+        <div class="balance-figure">
+          <span class="amount mono" id="balance-usd">USD 0,00</span>
+        </div>
+      </div>
+    </div>
+    <span class="balance-verdict" id="balance-verdict">SIN DATOS</span>
+  </div>
+
+  <div id="content">
+
+    <section class="block">
+      <div class="block-title">
+        <span>
+          Disponibilidad —
+          <input class="mono" id="week-label-input" value="Martes 8/9 - Lunes 14/9"
+            style="font-size:12px;width:200px;border:none;background:transparent;border-bottom:1px dashed var(--line-strong);color:var(--ink-soft);">
+        </span>
+        <span class="no-print">
+          <button class="btn small" id="add-disp-row">+ fila</button>
+        </span>
+      </div>
+      <table class="disp-table" id="disponibilidad-table">
+        <thead>
+          <tr>
+            <th class="label">Concepto</th>
+            <th>Monto ARS</th>
+            <th>Monto USD</th>
+            <th class="no-print"></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="block">
+      <div class="block-title">
+        <span>Egresos por sector</span>
+        <span class="sub">Presupuesto: col. B/F/G · Alfonso: col. E/F · Importaciones: carga manual</span>
+      </div>
+      <div id="egresos-empty" class="empty-state">
+        <strong>Sin Presupuesto cargado todavía.</strong><br>
+        Subí el Excel de Presupuesto tal cual sale del sistema, y opcionalmente el de Alfonso.
+        El sector "Importaciones" se puede completar a mano una vez que aparezcan las fechas.
+      </div>
+      <div style="overflow-x:auto;">
+        <table id="egresos-table" style="display:none;">
+          <thead></thead>
+          <tbody></tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="note">
+    Disponibilidad: carga manual, editable en pantalla. Presupuesto: columna B (Sector), F (Fecha Vencimiento),
+    G (Importe Estimado). Alfonso: columna E (Fecha calculada), F (Importe), sector fijo "PROVEEDORES - ALFONSO".
+    Importaciones: fila fija para completar a mano. El tipo de cambio se aplica a la fila "Total general USD" de
+    egresos y al saldo semanal.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  const SECTOR_ALFONSO = 'PROVEEDORES - ALFONSO';
+  const SECTOR_IMPORT = 'IMPORTACIONES';
+
+  const fmtARS = n => !n ? '-' : '$ ' + Number(n).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const fmtUSD = n => !n ? '-' : 'USD ' + Number(n).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const fmtARSsigned = n => (n<0?'-':'') + '$ ' + Math.abs(n).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const fmtUSDsigned = n => (n<0?'-':'') + 'USD ' + Math.abs(n).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2});
+
+  const fmtDate = v => {
+    if (v instanceof Date) {
+      return String(v.getDate()).padStart(2,'0') + '/' + String(v.getMonth()+1).padStart(2,'0') + '/' + v.getFullYear();
+    }
+    if (typeof v === 'number') {
+      const d = XLSX.SSF.parse_date_code(v);
+      if (d) return String(d.d).padStart(2,'0') + '/' + String(d.m).padStart(2,'0') + '/' + d.y;
+    }
+    const parsed = new Date(v);
+    if (!isNaN(parsed)) return String(parsed.getDate()).padStart(2,'0') + '/' + String(parsed.getMonth()+1).padStart(2,'0') + '/' + parsed.getFullYear();
+    return String(v);
+  };
+
+  let fxRate = 1500;
+  const fxInput = document.getElementById('fx-rate');
+  fxInput.addEventListener('input', () => {
+    fxRate = parseFloat(fxInput.value) || 0;
+    renderEgresos();
+    updateBalance();
+  });
+
+  document.getElementById('excel-input-1').addEventListener('change', e => handleFile(e, 'presupuesto'));
+  document.getElementById('excel-input-2').addEventListener('change', e => handleFile(e, 'alfonso'));
+  document.getElementById('export-pdf').addEventListener('click', exportPDF);
+  document.getElementById('add-disp-row').addEventListener('click', () => addDispRow('Nuevo concepto', 0, 0));
+
+  // ---------------- Disponibilidad (manual, editable) ----------------
+  const DEFAULT_DISPONIBILIDAD = [
+    ['Bancos', 0, 0],
+    ['Divisas en bancos', 0, 0],
+    ['Cobranza*', 0, 0],
+    ['Ingreso de CH MI', 0, 0],
+    ['Recuperos*', 0, 0],
+    ['Linea BBVA', 0, 0],
+  ];
+
+  function addDispRow(concepto, ars, usd){
+    const tbody = document.querySelector('#disponibilidad-table tbody');
+    const totalRow = tbody.querySelector('.total-row');
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="label"><input type="text" class="cell-input label-input" value="${concepto}"></td>
+      <td><input type="number" step="0.01" class="cell-input ars-input" value="${ars}"></td>
+      <td><input type="number" step="0.01" class="cell-input usd-input" value="${usd}"></td>
+      <td class="no-print"><button class="row-remove" title="Quitar fila">×</button></td>
+    `;
+    if (totalRow) tbody.insertBefore(tr, totalRow); else tbody.appendChild(tr);
+    tr.querySelectorAll('.cell-input').forEach(inp => inp.addEventListener('input', () => { recalcDisponibilidad(); updateBalance(); }));
+    tr.querySelector('.row-remove').addEventListener('click', () => { tr.remove(); recalcDisponibilidad(); updateBalance(); });
+  }
+
+  function initDisponibilidad(){
+    const tbody = document.querySelector('#disponibilidad-table tbody');
+    tbody.innerHTML = '<tr class="total-row"><td class="label">Total disponible</td><td id="disp-total-ars"></td><td id="disp-total-usd"></td><td class="no-print"></td></tr>';
+    DEFAULT_DISPONIBILIDAD.forEach(([c,a,u]) => addDispRow(c,a,u));
+    recalcDisponibilidad();
+  }
+
+  function recalcDisponibilidad(){
+    const tbody = document.querySelector('#disponibilidad-table tbody');
+    let totalARS = 0, totalUSD = 0;
+    tbody.querySelectorAll('tr:not(.total-row)').forEach(tr => {
+      totalARS += parseFloat(tr.querySelector('.ars-input').value) || 0;
+      totalUSD += parseFloat(tr.querySelector('.usd-input').value) || 0;
+    });
+    document.getElementById('disp-total-ars').textContent = fmtARS(totalARS);
+    document.getElementById('disp-total-usd').textContent = fmtUSD(totalUSD);
+  }
+
+  function getDisponibilidadTotals(){
+    const tbody = document.querySelector('#disponibilidad-table tbody');
+    let totalARS = 0, totalUSD = 0;
+    tbody.querySelectorAll('tr:not(.total-row)').forEach(tr => {
+      totalARS += parseFloat(tr.querySelector('.ars-input').value) || 0;
+      totalUSD += parseFloat(tr.querySelector('.usd-input').value) || 0;
+    });
+    return {ars: totalARS, usd: totalUSD};
+  }
+
+  initDisponibilidad();
+
+  // ---------------- Egresos: dos archivos + fila manual Importaciones ----------------
+  window.__egresosPresupuesto = [];
+  window.__egresosAlfonso = [];
+  window.__importacionesValues = {}; // { 'dd/mm/yyyy': monto }
+
+  function handleFile(e, source){
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = evt => {
+      const data = new Uint8Array(evt.target.result);
+      const wb = XLSX.read(data, {type:'array', cellDates:true});
+      if (source === 'presupuesto') processPresupuesto(wb);
+      else processAlfonso(wb);
+      document.getElementById('egresos-empty').style.display = 'none';
+      document.getElementById('egresos-table').style.display = 'table';
+      renderEgresos();
+      updateBalance();
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  function sheetRows(wb){
+    const sheetName = wb.SheetNames[0];
+    const ws = wb.Sheets[sheetName];
+    return XLSX.utils.sheet_to_json(ws, {header:1, defval:null, raw:true});
+  }
+
+  function processPresupuesto(wb){
+    const rows = sheetRows(wb);
+    // Columna B = índice 1 (Sector), F = índice 5 (Fecha Vencimiento), G = índice 6 (Importe Estimado)
+    const egresos = [];
+    for (let i = 1; i < rows.length; i++){
+      const row = rows[i];
+      if (!row) continue;
+      const sector = row[1], fecha = row[5], monto = row[6];
+      if (!sector || monto === null || monto === undefined) continue;
+      egresos.push({
+        sector: String(sector).replace(/\s+/g, ' ').trim(),
+        fecha: fmtDate(fecha),
+        monto: parseFloat(monto) || 0
+      });
+    }
+    window.__egresosPresupuesto = egresos;
+  }
+
+  function processAlfonso(wb){
+    const rows = sheetRows(wb);
+    // Columna E = índice 4 (Fecha calculada), F = índice 5 (Importe). Sector siempre PROVEEDORES - ALFONSO.
+    const egresos = [];
+    for (let i = 1; i < rows.length; i++){
+      const row = rows[i];
+      if (!row) continue;
+      const fecha = row[4], monto = row[5];
+      if (fecha === null || fecha === undefined || monto === null || monto === undefined) continue;
+      egresos.push({
+        sector: SECTOR_ALFONSO,
+        fecha: fmtDate(fecha),
+        monto: parseFloat(monto) || 0
+      });
+    }
+    window.__egresosAlfonso = egresos;
+  }
+
+  function buildMatrix(){
+    const all = [...window.__egresosPresupuesto, ...window.__egresosAlfonso];
+    const sectors = [];
+    const dateSet = new Set();
+    all.forEach(e => {
+      if (!sectors.includes(e.sector)) sectors.push(e.sector);
+      dateSet.add(e.fecha);
+    });
+    // incorporar fechas ya cargadas a mano en Importaciones aunque no vengan de los archivos
+    Object.keys(window.__importacionesValues).forEach(d => dateSet.add(d));
+    if (!sectors.includes(SECTOR_IMPORT)) sectors.push(SECTOR_IMPORT); // siempre al final
+
+    const dates = Array.from(dateSet).sort((a,b) => {
+      const da = a.split('/').reverse().join('-');
+      const db = b.split('/').reverse().join('-');
+      return da.localeCompare(db);
+    });
+
+    const matrix = {};
+    sectors.forEach(s => { matrix[s] = {}; dates.forEach(d => matrix[s][d] = 0); });
+    all.forEach(e => { matrix[e.sector][e.fecha] = (matrix[e.sector][e.fecha] || 0) + e.monto; });
+    dates.forEach(d => { matrix[SECTOR_IMPORT][d] = window.__importacionesValues[d] || 0; });
+
+    return {sectors, dates, matrix};
+  }
+
+  function renderEgresos(){
+    const {sectors, dates, matrix} = buildMatrix();
+    if (dates.length === 0) return;
+
+    const thead = document.querySelector('#egresos-table thead');
+    const tbody = document.querySelector('#egresos-table tbody');
+    const tfoot = document.querySelector('#egresos-table tfoot');
+    thead.innerHTML = ''; tbody.innerHTML = ''; tfoot.innerHTML = '';
+
+    const headTr = document.createElement('tr');
+    headTr.innerHTML = '<th class="label">Sector</th>' + dates.map(d => `<th>${d}</th>`).join('') + '<th>Total general</th>';
+    thead.appendChild(headTr);
+
+    sectors.forEach(s => {
+      const tr = document.createElement('tr');
+      if (s === SECTOR_IMPORT) tr.className = 'manual-row';
+      let rowTotal = 0;
+      let cellsHtml = '';
+      dates.forEach(d => {
+        const v = matrix[s][d];
+        rowTotal += v;
+        if (s === SECTOR_IMPORT) {
+          cellsHtml += `<td><input type="number" step="0.01" class="egresos-manual-input" data-date="${d}" value="${v || ''}" placeholder="0"></td>`;
+        } else {
+          cellsHtml += `<td class="${v===0?'zero':''}">${fmtARS(v)}</td>`;
+        }
+      });
+      const rowTotalId = s === SECTOR_IMPORT ? ' id="importaciones-row-total"' : '';
+      tr.innerHTML = `<td class="label">${s}</td>${cellsHtml}<td style="font-weight:700;"${rowTotalId}>${fmtARS(rowTotal)}</td>`;
+      tbody.appendChild(tr);
+    });
+
+    // listeners para la fila manual Importaciones
+    tbody.querySelectorAll('.egresos-manual-input').forEach(inp => {
+      inp.addEventListener('input', () => {
+        const d = inp.getAttribute('data-date');
+        window.__importacionesValues[d] = parseFloat(inp.value) || 0;
+        recalcFootersOnly(dates);
+        updateBalance();
+      });
+    });
+
+    renderFooters(dates, matrix, sectors);
+  }
+
+  function renderFooters(dates, matrix, sectors){
+    const tfoot = document.querySelector('#egresos-table tfoot');
+    tfoot.innerHTML = '';
+    const colTotals = {};
+    dates.forEach(d => colTotals[d] = 0);
+    let grandTotal = 0;
+    sectors.forEach(s => dates.forEach(d => { colTotals[d] += matrix[s][d]; grandTotal += matrix[s][d]; }));
+
+    const totalTr = document.createElement('tr');
+    totalTr.className = 'total-row';
+    totalTr.innerHTML = '<td class="label">Total general</td>' + dates.map(d => `<td id="coltotal-${cssSafe(d)}">${fmtARS(colTotals[d])}</td>`).join('') + `<td id="grandtotal-ars">${fmtARS(grandTotal)}</td>`;
+    tfoot.appendChild(totalTr);
+
+    const usdTr = document.createElement('tr');
+    usdTr.className = 'usd-row';
+    usdTr.innerHTML = '<td class="label">Total general USD</td>' + dates.map(d => `<td id="coltotalusd-${cssSafe(d)}">${fxRate ? fmtUSD(colTotals[d]/fxRate) : '-'}</td>`).join('') + `<td id="grandtotal-usd">${fxRate ? fmtUSD(grandTotal/fxRate) : '-'}</td>`;
+    tfoot.appendChild(usdTr);
+
+    window.__lastGrandTotal = grandTotal;
+  }
+
+  function cssSafe(s){ return s.replace(/\//g, '-'); }
+
+  // recalcula totales sin reconstruir toda la tabla (para no perder el foco al tipear Importaciones)
+  function recalcFootersOnly(dates){
+    const {sectors, matrix} = buildMatrix();
+    // actualizar total de fila Importaciones
+    let rowTotal = 0;
+    dates.forEach(d => rowTotal += matrix[SECTOR_IMPORT][d]);
+    const rowTotalEl = document.getElementById('importaciones-row-total');
+    if (rowTotalEl) rowTotalEl.textContent = fmtARS(rowTotal);
+    renderFooters(dates, matrix, sectors);
+  }
+
+  // ---------------- Saldo semanal (disponibilidad - egresos) ----------------
+  function updateBalance(){
+    const disp = getDisponibilidadTotals();
+    const grandTotalEgresos = window.__lastGrandTotal || 0;
+
+    const dispARSequiv = disp.ars + (disp.usd * fxRate);
+    const saldoARS = dispARSequiv - grandTotalEgresos;
+    const saldoUSD = fxRate ? saldoARS / fxRate : 0;
+
+    document.getElementById('balance-ars').textContent = fmtARSsigned(saldoARS);
+    document.getElementById('balance-usd').textContent = fmtUSDsigned(saldoUSD);
+
+    const banner = document.getElementById('balance-banner');
+    const verdict = document.getElementById('balance-verdict');
+    banner.classList.remove('surplus', 'deficit');
+    if (saldoARS >= 0) {
+      banner.classList.add('surplus');
+      verdict.textContent = 'SOBRA';
+    } else {
+      banner.classList.add('deficit');
+      verdict.textContent = 'FALTA';
+    }
+  }
+
+  updateBalance();
+
+  function exportPDF(){
+    const el = document.getElementById('dashboard-root');
+    const opt = {
+      margin: [10,8,10,8],
+      filename: 'posicion_financiera_semanal.pdf',
+      image: {type:'jpeg', quality:0.98},
+      html2canvas: {scale:2, useCORS:true},
+      jsPDF: {unit:'mm', format:'a4', orientation:'landscape'}
+    };
+    html2pdf().set(opt).from(el).save();
+  }
+})();
+</script>
+
+</body>
+</html>
