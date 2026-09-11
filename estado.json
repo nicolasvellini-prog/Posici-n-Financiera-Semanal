@@ -1479,5 +1479,7 @@
       "obs": "PAGO SUELDOS Y JORNALES"
     }
   ],
-  "importacionesValues": {}
+  "importacionesValues": {
+    "14/09/2026": 150000000
+  }
 }
