@@ -1,0 +1,283 @@
+{
+  "fxRate": 1500,
+  "weekLabel": "Martes 8/9 - Lunes 14/9",
+  "disponibilidad": [
+    [
+      "Bancos",
+      0,
+      0
+    ],
+    [
+      "Divisas en bancos",
+      0,
+      1600000
+    ],
+    [
+      "Cobranza*",
+      0,
+      0
+    ],
+    [
+      "Ingreso de CH MI",
+      0,
+      0
+    ],
+    [
+      "Recuperos*",
+      0,
+      0
+    ],
+    [
+      "Linea BBVA",
+      0,
+      0
+    ]
+  ],
+  "egresosPresupuesto": [
+    {
+      "sector": "Impuestos y Tasas",
+      "fecha": "14/09/2026",
+      "monto": 9841050,
+      "concepto": "Tasa por seguridad e higiene (Marta Pacheco)",
+      "obs": "Periodo Agosto 2026"
+    },
+    {
+      "sector": "Impuestos y Tasas",
+      "fecha": "14/09/2026",
+      "monto": 4739965,
+      "concepto": "Saldo DJ Convenio Multilateral (M.Pacheco)",
+      "obs": "Saldo mes Agosto 2026 - Pcia Chubut"
+    },
+    {
+      "sector": "Impuestos y Tasas",
+      "fecha": "17/09/2026",
+      "monto": 10175305,
+      "concepto": "Tasa por servicios urbanos (Marta Pacheco)",
+      "obs": "Cuota 9/2026 - propiedades directores y sociedad"
+    },
+    {
+      "sector": "Servicios Varios",
+      "fecha": "15/09/2026",
+      "monto": 6700605,
+      "concepto": "Obras Sanitarias - Mar del Plata (Gabriela Di Luciano)",
+      "obs": "MENSUAL FRIGORIFICO"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "14/09/2026",
+      "monto": 3000000,
+      "concepto": "Certificado de Captura Legal",
+      "obs": "Provision ccl semanal"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "14/09/2026",
+      "monto": 2000000,
+      "concepto": "Servicios extraordinarios Aduana",
+      "obs": "Provision sanitarios semanal"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "15/09/2026",
+      "monto": 33800870,
+      "concepto": "Derechos de Exportación (Marta Pacheco)",
+      "obs": "Liquidacion sobre 2 PERMISOS"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "16/09/2026",
+      "monto": 6320520,
+      "concepto": "Derechos de Exportación (Marta Pacheco)",
+      "obs": "Liquidacion sobre 1 PERMISO"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "18/09/2026",
+      "monto": 6487654.54,
+      "concepto": "Servicios extraordinarios Aduana",
+      "obs": "SuSe servicios extraordinarios aduana"
+    },
+    {
+      "sector": "Gastos Buques",
+      "fecha": "14/09/2026",
+      "monto": 1360930,
+      "concepto": "Observadores a Bordo INIDEP (M.Pacheco)",
+      "obs": "Buque JOSE AMERICO marea 6/2026"
+    },
+    {
+      "sector": "Personal - Cargas Sociales y Otros gastos **",
+      "fecha": "15/09/2026",
+      "monto": 270000000,
+      "concepto": "Sindicatos",
+      "obs": "Sindicatos - 08-2026"
+    },
+    {
+      "sector": "Personal - Cargas Sociales y Otros gastos **",
+      "fecha": "16/09/2026",
+      "monto": 234599234.67,
+      "concepto": "ANSES PLANES",
+      "obs": "cuota 2-5 plan de pagos anses seguridad social 6-2026 (generar vep - no se debita automaticamente)"
+    },
+    {
+      "sector": "Personal - Cargas Sociales y Otros gastos **",
+      "fecha": "16/09/2026",
+      "monto": 159613429.5,
+      "concepto": "ANSES PLANES",
+      "obs": "cuota 1/6 PFP ANSES 7-2026"
+    },
+    {
+      "sector": "Personal Tierra - Sueldos y jornales **",
+      "fecha": "18/09/2026",
+      "monto": 1500000,
+      "concepto": "Mensuales",
+      "obs": "MENSUALES - ANTICIPOS 08 26"
+    },
+    {
+      "sector": "Personal Tierra - Sueldos y jornales **",
+      "fecha": "18/09/2026",
+      "monto": 2000000,
+      "concepto": "Fuera de Convenio",
+      "obs": "FC - ANTICIPOS 08 26"
+    },
+    {
+      "sector": "Personal Tierra - Sueldos y jornales **",
+      "fecha": "18/09/2026",
+      "monto": 1000000,
+      "concepto": "SAON",
+      "obs": "SAON - ANTICIPOS 08 26"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 10000000,
+      "concepto": "Buenapesca",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 9126176,
+      "concepto": "Maria Eugenia",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 14844455.85,
+      "concepto": "Maria Liliana",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 2575234.23,
+      "concepto": "Siempre Don Jose",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 20000000,
+      "concepto": "Jose Americo",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 25236726.85,
+      "concepto": "Nina",
+      "obs": "Liq. Mensual - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "14/09/2026",
+      "monto": 419681916.74,
+      "concepto": "Nina",
+      "obs": "Marea Nº 5 - 09-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "15/09/2026",
+      "monto": 2730021.31,
+      "concepto": "Don Cayetano",
+      "obs": "Saldo Ajuste Aguinaldo - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "15/09/2026",
+      "monto": 361950222.5,
+      "concepto": "Maria Liliana",
+      "obs": "Marea Nº 5 - 09-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "15/09/2026",
+      "monto": 9513823.78,
+      "concepto": "Graciela I",
+      "obs": "AJUSTE AGUINALDO"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "15/09/2026",
+      "monto": 9937296.59,
+      "concepto": "José Marcelo",
+      "obs": "Saldo Ajuste Aguinaldo - 08-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "16/09/2026",
+      "monto": 636100,
+      "concepto": "Buenapesca",
+      "obs": "REINTEGRO VIÁTICOS"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "16/09/2026",
+      "monto": 275602460.91,
+      "concepto": "Stella Maris I",
+      "obs": "Marea Nº 5 - 09-2026"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "16/09/2026",
+      "monto": 2000000,
+      "concepto": "José Marcelo",
+      "obs": "Anticipo Ibarra"
+    },
+    {
+      "sector": "Varios",
+      "fecha": "15/09/2026",
+      "monto": 5065945,
+      "concepto": "Expensas EDIFICIOS (Marta Pacheco)",
+      "obs": "Gastos mes Agosto 2026"
+    }
+  ],
+  "egresosAlfonso": [
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "14/09/2026",
+      "monto": 176899224.66
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 319963275.85
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "16/09/2026",
+      "monto": 436402014.87
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "17/09/2026",
+      "monto": 125464148.83
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "18/09/2026",
+      "monto": 139605780.92
+    }
+  ],
+  "importacionesValues": {}
+}
