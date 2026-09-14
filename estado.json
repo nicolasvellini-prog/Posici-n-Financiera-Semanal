@@ -1,6 +1,6 @@
 {
   "fxRate": 1500,
-  "weekLabel": "Martes 8/9 - Lunes 14/9",
+  "weekLabel": "Lunes 15/9 - Viernes 18/9",
   "disponibilidad": [
     [
       "Bancos",
@@ -1242,7 +1242,8 @@
     }
   ],
   "importacionesValues": {
-    "14/09/2026": 150000000,
-    "15/09/2026": 135000000
+    "14/09/2026": 0,
+    "15/09/2026": 135000000,
+    "16/09/2026": 150000000
   }
 }
