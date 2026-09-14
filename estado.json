@@ -36,20 +36,6 @@
   "egresosPresupuesto": [
     {
       "sector": "Impuestos y Tasas",
-      "fecha": "14/09/2026",
-      "monto": 9841050,
-      "concepto": "Tasa por seguridad e higiene (Marta Pacheco)",
-      "obs": "Periodo Agosto 2026"
-    },
-    {
-      "sector": "Impuestos y Tasas",
-      "fecha": "14/09/2026",
-      "monto": 4739965,
-      "concepto": "Saldo DJ Convenio Multilateral (M.Pacheco)",
-      "obs": "Saldo mes Agosto 2026 - Pcia Chubut"
-    },
-    {
-      "sector": "Impuestos y Tasas",
       "fecha": "17/09/2026",
       "monto": 13749428,
       "concepto": "Tasa por servicios urbanos (Marta Pacheco)",
@@ -61,20 +47,6 @@
       "monto": 6700605,
       "concepto": "Obras Sanitarias - Mar del Plata (Gabriela Di Luciano)",
       "obs": "MENSUAL FRIGORIFICO"
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "14/09/2026",
-      "monto": 3000000,
-      "concepto": "Certificado de Captura Legal",
-      "obs": "Provision ccl semanal"
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "14/09/2026",
-      "monto": 2000000,
-      "concepto": "Servicios extraordinarios Aduana",
-      "obs": "Provision sanitarios semanal"
     },
     {
       "sector": "Comercio Exterior",
@@ -99,10 +71,10 @@
     },
     {
       "sector": "Gastos Buques",
-      "fecha": "14/09/2026",
-      "monto": 1360930,
+      "fecha": "18/09/2026",
+      "monto": 1514597,
       "concepto": "Observadores a Bordo INIDEP (M.Pacheco)",
-      "obs": "Buque JOSE AMERICO marea 6/2026"
+      "obs": "buque S.DON JOSE MOSCUZZA marea 7/2026"
     },
     {
       "sector": "Personal - Cargas Sociales y Otros gastos **",
@@ -148,55 +120,6 @@
     },
     {
       "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 10000000,
-      "concepto": "Buenapesca",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 9126176,
-      "concepto": "Maria Eugenia",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 14844455.85,
-      "concepto": "Maria Liliana",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 2575234.23,
-      "concepto": "Siempre Don Jose",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 20000000,
-      "concepto": "Jose Americo",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 25236726.85,
-      "concepto": "Nina",
-      "obs": "Liq. Mensual - 08-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "14/09/2026",
-      "monto": 419681916.74,
-      "concepto": "Nina",
-      "obs": "Marea Nº 5 - 09-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
       "fecha": "15/09/2026",
       "monto": 2730021.31,
       "concepto": "Don Cayetano",
@@ -233,13 +156,6 @@
     {
       "sector": "Personal -Sueldos Embarcados **",
       "fecha": "16/09/2026",
-      "monto": 275602460.91,
-      "concepto": "Stella Maris I",
-      "obs": "Marea Nº 5 - 09-2026"
-    },
-    {
-      "sector": "Personal -Sueldos Embarcados **",
-      "fecha": "16/09/2026",
       "monto": 2000000,
       "concepto": "José Marcelo",
       "obs": "Anticipo Ibarra"
@@ -253,13 +169,6 @@
     }
   ],
   "egresosAlfonso": [
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 6382623.4,
-      "concepto": "Canje de Cheques propios",
-      "obs": "Canje de Cheques propios"
-    },
     {
       "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
@@ -276,10 +185,17 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1864236.51,
+      "fecha": "16/09/2026",
+      "monto": 5000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ADOLFO FORTIER S A C I F I A"
+      "obs": "ACUPRI S. R. L"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "18/09/2026",
+      "monto": 5493503.4,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "ACUPRI S. R. L"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -290,10 +206,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 302514.6,
+      "fecha": "17/09/2026",
+      "monto": 432388.62,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ASSISTANCE FOOD ARGENTINA SA"
+      "obs": "ANTONIO PORPIGLIA SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -304,13 +220,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 575711.17,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "BALIÑA GERARDO DANIEL"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "15/09/2026",
       "monto": 570754.85,
       "concepto": "Orden de Pago-Proveedores",
@@ -318,10 +227,24 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "18/09/2026",
+      "monto": 2592993.89,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "CABRALES S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "17/09/2026",
       "monto": 2243372.07,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "CAJIDE JAVIER"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 2041117.22,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "CAPIZZANO ALEJANDRO LUIS"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -339,13 +262,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 7280845,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "CILENTO MECANIZADOS Y REPUESTOS"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "17/09/2026",
       "monto": 6414792.94,
       "concepto": "Orden de Pago-Proveedores",
@@ -360,17 +276,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 9754920,
+      "fecha": "15/09/2026",
+      "monto": 30207971.4,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "COMPAÑIA DE SEGUROS LA MERCANTIL ANDINA S.A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 11721928.16,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "COMPAÑIA DE SEGUROS LA MERCANTIL ANDINA S.A."
+      "obs": "CONSORCIO PORTUARIO REGIONAL DE MAR DEL PLATA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -385,13 +294,6 @@
       "monto": 1559743.9,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "CONSULTORA GESTAM MDP SA"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 8800000,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "COOP. DE TRABAJO PUCARA LIMITADA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -444,13 +346,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 3146131.2,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "CRAITO ARGENTINA SA"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 3512983.4,
       "concepto": "Orden de Pago-Proveedores",
@@ -465,6 +360,13 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 813392.66,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "DHL EXPRESS (ARGENTINA) S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 899140.58,
       "concepto": "Orden de Pago-Proveedores",
@@ -472,52 +374,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 995390,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "DISTRIBUIDORA LEBENSHON 8061"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 4414827.11,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "DISTRIBUIDORA WALLY S. R. L."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1051476.97,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "DURAGOM S.R.L."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 4252077.26,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "ECOPETROL SERVICIOS INDUSTRIALES Y NAVALES SA"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 3276900,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "EGUREN JORGE ALBERTO"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "17/09/2026",
       "monto": 4705556.2,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "EL MEJOR CAFE DEL PUERTO S.R.L."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 676412,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "EMPRESA DE COMBUSTIBLES ZONA COMUN SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -542,24 +402,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 6620949,
+      "fecha": "16/09/2026",
+      "monto": 780000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "FEDERACION PATRONAL SEGUROS S.A"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 189268.9,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "FEDERACION PATRONAL SEGUROS S.A"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 178329.09,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "FERRARO MARIANO ANDRES"
+      "obs": "FEIJO NICOLAS EDUARDO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -567,6 +413,20 @@
       "monto": 909277,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "FERRARO MARIANO ANDRES"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 2614425.6,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "FERREYRA ALVARO GERMAN"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 2859515.16,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "FESCAP S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -591,6 +451,13 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 100108.03,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "GOMATEX S.R.L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 1357034.44,
       "concepto": "Orden de Pago-Proveedores",
@@ -612,17 +479,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1000732.63,
+      "fecha": "17/09/2026",
+      "monto": 1774474.74,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "HIDRAULICA Y NEUMATICA SRL"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 941180.05,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "IACONO JORGE ALBERTO"
+      "obs": "HENNING JUAN FEDERICO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -640,13 +500,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 2359892.38,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "ISF SOFT S.A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 392824.23,
       "concepto": "Orden de Pago-Proveedores",
@@ -654,17 +507,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 661680.5,
+      "fecha": "15/09/2026",
+      "monto": 1028306.44,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "JEZAHEL S.A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1273850.34,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "LA HOLANDO SUDAMERICANA COMPAÑIA DE SEGUROS S A"
+      "obs": "LA CASA DEL FLEXIBLE SRL."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -672,6 +518,13 @@
       "monto": 43390894.13,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "LA HOLANDO SUDAMERICANA COMPAÑIA DE SEGUROS S A"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 162529.45,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "LAKAUT S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -696,17 +549,17 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "17/09/2026",
+      "monto": 837451.5,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "M D Q QUIMICA GARVEY S A"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "15/09/2026",
       "monto": 2319043.4,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "MARITIMA OBISPO S.A.S."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 175317.51,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "MATTINA HNOS S.A.C.I.A.N."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -717,24 +570,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 2431117.68,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "NORIOC SERVICIO DE ASISTENCIA TECNICA S.A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "17/09/2026",
       "monto": 12000000,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "O.A.C.I. S.A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 11000000,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "OVERRUKA S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -759,13 +598,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 46000000,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "PATAGONIA ESTIBAJES S. A."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 46000000,
       "concepto": "Orden de Pago-Proveedores",
@@ -784,13 +616,6 @@
       "monto": 11259412.31,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "PINTURERIA PLATERO JFJ S.A"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 10586947.2,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "PMDP SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -822,17 +647,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1647482.89,
+      "fecha": "17/09/2026",
+      "monto": 1503561.69,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "RODRIGUEZ ALEJANDRO DANIEL"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 608830.65,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "RULEMANES PUERTO S.A - (C. F. )"
+      "obs": "ROTH SRL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -840,6 +658,13 @@
       "monto": 5582687.8,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "S.C.F. S.R.L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 341100,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SALAS OSCAR LISANDRO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -892,17 +717,17 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "17/09/2026",
+      "monto": 1797219.51,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SIMMONS DE ARGENTINA SAIC"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 7905063.4,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "SIMONAZZI HUGO OMAR"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1091098.96,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "SUCESION DE BUONO FILIPPO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -927,13 +752,6 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1103662.36,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "TODO BOMBAS S. R. L."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "17/09/2026",
       "monto": 2274188.54,
       "concepto": "Orden de Pago-Proveedores",
@@ -941,10 +759,10 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1240784.93,
+      "fecha": "17/09/2026",
+      "monto": 1478170.98,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "TRANSPORTE GYAN S.R.L."
+      "obs": "TODO PARA LA GASTRONOMIA S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -962,8 +780,22 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "16/09/2026",
+      "monto": 1257100,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "VILLAGRA DAVID ERNESTO"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
       "fecha": "15/09/2026",
       "monto": 4210706.23,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "VILLAR MARCELA NOELIA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "15/09/2026",
+      "monto": 556665.41,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "VILLAR MARCELA NOELIA"
     },
@@ -980,13 +812,6 @@
       "monto": 37000000,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "VIOMAR S.A.I.C."
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 10703714.86,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "XYLEM WATER SOLUTIONS ARGENTINA SRL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -1055,34 +880,6 @@
       "sector": "PROVEEDORES - ALFONSO",
       "fecha": "15/09/2026",
       "monto": 1473359.34,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1147323.37,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 2325925.46,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1999825.68,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 3289170.41,
       "concepto": "PAGO SUELDOS Y JORNALES",
       "obs": "PAGO SUELDOS Y JORNALES"
     },
@@ -1300,41 +1097,6 @@
       "sector": "PROVEEDORES - ALFONSO",
       "fecha": "16/09/2026",
       "monto": 350000,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 3109143.52,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 4203043.14,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 632474.84,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1036951.94,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "14/09/2026",
-      "monto": 1227156.39,
       "concepto": "PAGO SUELDOS Y JORNALES",
       "obs": "PAGO SUELDOS Y JORNALES"
     },
