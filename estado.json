@@ -1,25 +1,25 @@
 {
-  "fxRate": 1500,
-  "weekLabel": "Lunes 05/10 - Viernes 9/10",
+  "fxRate": 1520,
+  "weekLabel": "Lunes 12/10 - Viernes 16/10",
   "disponibilidad": [
     [
       "Bancos",
-      0,
+      204340000,
       0
     ],
     [
       "Divisas en bancos",
       0,
-      0
+      1580470
     ],
     [
       "Cobranza*",
       0,
-      0
+      400000
     ],
     [
       "Ingreso de CH MI",
-      0,
+      340560000,
       0
     ],
     [
@@ -990,7 +990,9 @@
     }
   ],
   "manualValues": {
-    "IMPORTACIONES": {},
+    "IMPORTACIONES": {
+      "13/10/2026": 53200000
+    },
     "OTROS GASTOS": {}
   },
   "manualDates": []
