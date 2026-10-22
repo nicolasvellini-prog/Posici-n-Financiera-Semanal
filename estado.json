@@ -1,16 +1,16 @@
 {
   "fxRate": 1520,
-  "weekLabel": "Lunes 19/10 - Viernes 23/10",
+  "weekLabel": "Viernes 23/10 - Viernes 30/10",
   "disponibilidad": [
     [
       "Bancos",
-      106000000,
-      682000
+      119300000,
+      0
     ],
     [
       "Divisas en bancos",
       0,
-      0
+      2014000
     ],
     [
       "Cobranza*",
@@ -19,73 +19,17 @@
     ],
     [
       "Ingreso de CH MI",
-      800000000,
+      191000000,
       0
     ]
   ],
   "egresosPresupuesto": [
     {
-      "sector": "Impuestos y Tasas",
-      "fecha": "19/10/2026",
-      "monto": 13749430,
-      "concepto": "Tasa por servicios urbanos (Marta Pacheco)",
-      "obs": "Cuota 10/2026 - propiedades directores y sociedad"
-    },
-    {
-      "sector": "Impuestos y Tasas",
-      "fecha": "20/10/2026",
-      "monto": 17947009.31,
-      "concepto": "Imp.a las Ganancias - Retenciones",
-      "obs": "GCIAS por servicios al exterior - Pago a cuenta"
-    },
-    {
-      "sector": "Impuestos y Tasas",
-      "fecha": "20/10/2026",
-      "monto": 4856083.83,
-      "concepto": "Retencion de IVA 3125 (Marta Pacheco)",
-      "obs": "IVA por servicios al exterior - Pago a cuenta"
-    },
-    {
-      "sector": "Impuestos y Tasas",
-      "fecha": "22/10/2026",
-      "monto": 21693650,
-      "concepto": "Imp.s/Ingresos Brutos Retenciones (M .Pacheco)",
-      "obs": "Estimado - 1º quincena mes Octubre 2026"
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "19/10/2026",
-      "monto": 623602800,
-      "concepto": "Derechos de Exportación (Marta Pacheco)",
-      "obs": "Liquidacion sobre 17 PERMISOS"
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "19/10/2026",
-      "monto": 1680000,
-      "concepto": "Percepciones ganancias RG3577",
-      "obs": ""
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "20/10/2026",
-      "monto": 40536920,
-      "concepto": "Derechos de Exportación (Marta Pacheco)",
-      "obs": "Liquidacion sobre 3 PERMISOS"
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "20/10/2026",
-      "monto": 2741705.26,
-      "concepto": "Servicios extraordinarios Aduana",
-      "obs": ""
-    },
-    {
-      "sector": "Comercio Exterior",
-      "fecha": "22/10/2026",
-      "monto": 4710978,
-      "concepto": "Derechos de Exportación (Marta Pacheco)",
-      "obs": "Liquidacion sobre 1 PERMISO"
+      "sector": "Servicios Varios",
+      "fecha": "27/10/2026",
+      "monto": 375000,
+      "concepto": "EDEA (Gabriela Di Luciano)",
+      "obs": "OFICINAS EMBARCADOS"
     },
     {
       "sector": "Comercio Exterior",
@@ -95,160 +39,202 @@
       "obs": "Liquidaciones sobre 3 PERMISOS"
     },
     {
-      "sector": "Gastos Buques",
-      "fecha": "21/10/2026",
-      "monto": 114184496,
-      "concepto": "Derechos de extracción ( Marta Pacheco)",
-      "obs": "Descargas Mes 09/2026 - congeladores y fresqueros"
+      "sector": "Comercio Exterior",
+      "fecha": "26/10/2026",
+      "monto": 208295770,
+      "concepto": "Derechos de Exportación (Marta Pacheco)",
+      "obs": "Liquidacion sobre 4 PERMISOS"
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "26/10/2026",
+      "monto": 2800000,
+      "concepto": "Percepciones ganancias RG3577",
+      "obs": ""
+    },
+    {
+      "sector": "Comercio Exterior",
+      "fecha": "27/10/2026",
+      "monto": 30525970,
+      "concepto": "Derechos de Exportación (Marta Pacheco)",
+      "obs": "Liquidacion sobre 2 PERMISOS"
     },
     {
       "sector": "Gastos Buques",
-      "fecha": "21/10/2026",
-      "monto": 9788022,
-      "concepto": "Inspectores de Pesca (M. Pacheco)",
-      "obs": "Buques Graciela I-DC-J.Marcelo"
+      "fecha": "27/10/2026",
+      "monto": 5176600,
+      "concepto": "Tasa anual Prefectura Buques ( Marta Pacheco)",
+      "obs": "Cuota 2/2026 - buques fresqueros y congeladores"
     },
     {
       "sector": "Personal - Cargas Sociales y Otros gastos **",
-      "fecha": "20/10/2026",
-      "monto": 550000,
-      "concepto": "Gastos Comedor",
-      "obs": "PLANTA - 1° QNA 10 26"
+      "fecha": "30/10/2026",
+      "monto": 7250000,
+      "concepto": "Sindicatos",
+      "obs": "Acta compromiso Asoc. Capitanes 08-2025 (B/C M EUGENIA)"
     },
     {
       "sector": "Personal Tierra - Sueldos y jornales **",
-      "fecha": "20/10/2026",
-      "monto": 1500000,
-      "concepto": "Mensuales",
-      "obs": "MENSUALES - ANTICIPOS 10 26"
-    },
-    {
-      "sector": "Personal Tierra - Sueldos y jornales **",
-      "fecha": "20/10/2026",
-      "monto": 2000000,
-      "concepto": "Fuera de Convenio",
-      "obs": "FC - ANTICIPOS 10 26"
-    },
-    {
-      "sector": "Personal Tierra - Sueldos y jornales **",
-      "fecha": "20/10/2026",
-      "monto": 35000000,
+      "fecha": "28/10/2026",
+      "monto": 2600000,
       "concepto": "Planta",
-      "obs": "PLANTA - 1° QNA 10 26"
+      "obs": "PLANTA - ANTICIPOS 2° QNA 10 26"
     },
     {
-      "sector": "Personal Tierra - Sueldos y jornales **",
-      "fecha": "20/10/2026",
-      "monto": 1000000,
-      "concepto": "SAON",
-      "obs": "SAON - ANTICIPOS 10 26"
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 1500000,
+      "concepto": "Don Cayetano",
+      "obs": "Anticipo liq. finales - BANCO FRANCES"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 1500000,
+      "concepto": "Don Cayetano",
+      "obs": "Anticipos - BANCO PATAGONIA"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 3000000,
+      "concepto": "Stella Maris I",
+      "obs": "BBVA - Anticipo entrada Marea nº 6"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 74600000,
+      "concepto": "Stella Maris I",
+      "obs": "PATA - Anticipo entrada Marea nº 6"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 2000000,
+      "concepto": "Graciela I",
+      "obs": "Anticipo liq. final - BANCO FRANCES"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "26/10/2026",
+      "monto": 500000,
+      "concepto": "José Marcelo",
+      "obs": "BBVA - Anticipo liq. finales"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "30/10/2026",
+      "monto": 85000000,
+      "concepto": "Don Pedro (Congelador)",
+      "obs": "Anticipo entrada Marea Nº 5 - BANCO PATAGONIA"
+    },
+    {
+      "sector": "Personal -Sueldos Embarcados **",
+      "fecha": "30/10/2026",
+      "monto": 42000000,
+      "concepto": "Maria Eugenia",
+      "obs": "Anticipo entrada marea Nº 8 - BANCO PATAGONIA"
     }
   ],
   "egresosAlfonso": [
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 1425690,
-      "concepto": "Impuestos y Tasas Municipales",
-      "obs": "Impuestos y Tasas Municipales"
+      "fecha": "29/10/2026",
+      "monto": 6501901.82,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "CLEANING IN PACE S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 620188.74,
+      "fecha": "27/10/2026",
+      "monto": 207123.8,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MEDIFE ASOCIACION CIVIL"
+      "obs": "MUTUAL DE PESCADORES MARITIMOS"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 10198808.96,
+      "fecha": "28/10/2026",
+      "monto": 635241.73,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ABBOUD MARCELO BANAIOT"
+      "obs": "201203 EL POLVORIN DE LA COSTA S. A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 1004971.99,
+      "fecha": "30/10/2026",
+      "monto": 4000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ABETE Y CIA. S.A."
+      "obs": "ABB S.A.U."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 6153755.92,
+      "fecha": "29/10/2026",
+      "monto": 3935903.4,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ALMACEN NAVAL ELENA SRL"
+      "obs": "ACUPRI S. R. L"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 658310.1,
+      "fecha": "23/10/2026",
+      "monto": 210000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "BALDANI LEONARDO MIGUEL"
+      "obs": "ALVAREZ DIEGO FERNANDO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 508505.2,
+      "fecha": "27/10/2026",
+      "monto": 141469.18,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "BRASAS JUAN IGNACIO"
+      "obs": "ASCENSORES ULTRA S R L"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 9803280.3,
+      "fecha": "29/10/2026",
+      "monto": 1266746.86,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "BULLBLACK S. A. (C.F.)"
+      "obs": "BELLA VISTA DEL MAR MDQ S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 2498017.31,
+      "fecha": "26/10/2026",
+      "monto": 421030.83,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "CAMARA DE ARMADORES DE PESQUEROS CONGELADORES DE LA ARGENTINA CAPECA"
+      "obs": "BELLONIO JOSE LUIS"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 4327418.4,
+      "fecha": "27/10/2026",
+      "monto": 1162047.5,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "CENTRO DE ATENCION TECNICA SOCIEDAD DE RESPONSABILIDAD LIMITADA"
+      "obs": "BENGOCHEA JORGE GABRIEL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 1054581.24,
+      "fecha": "30/10/2026",
+      "monto": 163135.2,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "COMERCIAL DEL MAR S.A."
+      "obs": "BRAVO MINNUCCI MDQ SOCIEDAD DE RESPONSABILIDAD LIMITADA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 1737139.63,
+      "fecha": "28/10/2026",
+      "monto": 5192902.59,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "CONSORCIO PORTUARIO REGIONAL DE MAR DEL PLATA"
+      "obs": "BUIZ LEONARDO RAUL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 28962.5,
+      "fecha": "29/10/2026",
+      "monto": 9856428.75,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "CONSORCIO PORTUARIO REGIONAL DE MAR DEL PLATA"
+      "obs": "COMPAÑIA GRAFICA AUTOADHESIVA E INDUMENTARIAS.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 21060700,
+      "fecha": "27/10/2026",
+      "monto": 900000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "COOP. DE TRABAJO PUCARA LIMITADA"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 34800000,
-      "concepto": "Orden de Pago-Proveedores",
-      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+      "obs": "CONTI SOFIA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -259,206 +245,437 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 5383820.65,
+      "fecha": "26/10/2026",
+      "monto": 18000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "COSTA JORGE ALBERTO"
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 2510102.39,
+      "fecha": "26/10/2026",
+      "monto": 14000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 18000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 19000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 14000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 18000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 19000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 18000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 14000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 19000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "COOPERATIVA DE TRABAJO DE ESTIBAJE HIPOCOOP LTDA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 3577408.57,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "DANODIS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 2418143.4,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "DELTA BLUE LANCHAS SRL"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "26/10/2026",
+      "monto": 441634.55,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "DENTON MIGUEL ANGEL Y REUSMANN JUAN CARLOS SH"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 1461702.85,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "DISTRIBUIDORA COSIMI SRL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 1330000,
+      "fecha": "26/10/2026",
+      "monto": 577078.26,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "DUARTE MARCELO LUIS RUFINO"
+      "obs": "DISTRIBUIDORA EL FARO SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 9428958,
+      "fecha": "28/10/2026",
+      "monto": 5096093.47,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "DURAGOM S.R.L."
+      "obs": "EL MEJOR CAFE DEL PUERTO S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 3167670,
+      "fecha": "29/10/2026",
+      "monto": 2723629.24,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "EGUREN JORGE ALBERTO"
+      "obs": "FADECCO S. A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 7765205.76,
+      "fecha": "27/10/2026",
+      "monto": 1558452.15,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ELECTROTERMA MAR DEL PLATA S.R.L."
+      "obs": "FAMIQ SRL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 4423350.39,
+      "fecha": "27/10/2026",
+      "monto": 630895.4,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "ESPUMAS PILAR SRL"
+      "obs": "FERNANDEZ MARCELA EDITH"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 2199790.15,
+      "fecha": "29/10/2026",
+      "monto": 3667937.2,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "EUROPATAGONICA S A"
+      "obs": "FERREYRA ALVARO GERMAN"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 5554839.66,
+      "fecha": "27/10/2026",
+      "monto": 665390,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "GANADERA EL MUDO S.A."
+      "obs": "FIREFISH SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 13741040.98,
+      "fecha": "26/10/2026",
+      "monto": 10000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "GERAHARD HNOS SOCIEDAD DE RESPONSABILIDAD LIMITADA EN FORMACION"
+      "obs": "FUNDACION FARO ARGENTINA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 12566125.21,
+      "fecha": "28/10/2026",
+      "monto": 10000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "GRUPO VLANTE S. R. L."
+      "obs": "FUNDACION FARO ARGENTINA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 3950362.5,
+      "fecha": "30/10/2026",
+      "monto": 10700000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "HAUNOLD VIVIANA"
+      "obs": "FUNDACION FARO ARGENTINA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 705520.92,
+      "fecha": "27/10/2026",
+      "monto": 1236848.2,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "INDUSTRIAS DE PASCALE S.A."
+      "obs": "GANACA7 S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 2457076.42,
+      "fecha": "27/10/2026",
+      "monto": 8000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "JAN-MARK SRL"
+      "obs": "GARCIA ERNESTO HORACIO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 7204292.25,
+      "fecha": "28/10/2026",
+      "monto": 10000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "LUGO MAXIMILIANO JAVIER"
+      "obs": "GARCIA ERNESTO HORACIO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 10391423.15,
+      "fecha": "29/10/2026",
+      "monto": 8573385.12,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MANTENIMIENTOS SUDESTE EMPRESA DE SERVICIOS SRL"
+      "obs": "GARCIA ERNESTO HORACIO"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 5920545.84,
+      "fecha": "28/10/2026",
+      "monto": 6877832.2,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MAYEKAWA ARGENTINA S.A."
+      "obs": "GLOBAL COMPRESSOR SOCIEDAD ANONIMA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 38153.44,
+      "fecha": "29/10/2026",
+      "monto": 3444500,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MORALES ADRIAN LINDOR"
+      "obs": "GRAMAJO PABLO MARTIN"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 4000000,
+      "fecha": "23/10/2026",
+      "monto": 718598.63,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MOTORES ELECTRICOS MAR DEL PLATA S.R.L."
+      "obs": "GRUPO NUCLEO S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 4381263.4,
+      "fecha": "26/10/2026",
+      "monto": 4100000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "MOTORES ELECTRICOS MAR DEL PLATA S.R.L."
+      "obs": "GUEDIKIAN IMPRESORES SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 136125.07,
+      "fecha": "30/10/2026",
+      "monto": 4261766.14,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "GUEDIKIAN IMPRESORES SA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 3000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "HIDRAMIC S.R.L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 3553682.68,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "HIDRAMIC S.R.L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 9000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "HIDRAULICA Y NEUMATICA SRL"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 3471296.96,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "HORNI MIGUEL EDGARDO"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 767870.67,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "HOTELES Y TURISMO S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "26/10/2026",
+      "monto": 6000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "INDUSTRIAS TRICERRI HNOS E HIJOS SA ICFAGYF"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 6259780,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "INDUSTRIAS TRICERRI HNOS E HIJOS SA ICFAGYF"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 6221037.7,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "JOSE MOSCUZZA Y CIA SACI"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 1450578.47,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "LA CASA DEL FLEXIBLE SRL."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 2537103.5,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MADERAS MISIONES S. A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 1373343.4,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MALEVO MEDINA BUZOS S.R.L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "26/10/2026",
+      "monto": 6000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MALSAN MDP S. A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 5780146.85,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MALSAN MDP S. A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 2790690.4,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MASSA LUIS ALEJANDRO"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 518071.31,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MEDINA LEONEL JESUS"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 385097.74,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MONITOREO Y VIGILANCIA MEDINILLA S.A"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 4149880,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "MOSCA LEONARDO"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "26/10/2026",
+      "monto": 142332.58,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "MPE S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 2907623.4,
+      "fecha": "30/10/2026",
+      "monto": 209830.48,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "NAUTICAL SRL"
+      "obs": "NICLAU DESPACHANTES DE ADUANA S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 2728521.46,
+      "fecha": "27/10/2026",
+      "monto": 122089.3,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "PREVENCION SALUD SOCIEDAD ANONIMA"
+      "obs": "O.A.C.I. S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 12234160,
+      "fecha": "26/10/2026",
+      "monto": 504928,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "PROVINCIA SEGUROS S.A."
+      "obs": "OCCUPATIONAL MEDICINAE PUERTO MAR DEL PLATA S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 16765979.5,
+      "fecha": "28/10/2026",
+      "monto": 14727645.4,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "PROVINCIA SEGUROS S.A."
+      "obs": "PUNTO TECNICO S.R.L."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 20000000,
+      "fecha": "26/10/2026",
+      "monto": 618094.63,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+      "obs": "PUNTO TRUCK S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 20000000,
+      "fecha": "27/10/2026",
+      "monto": 135997.94,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+      "obs": "RIBAYA EDUARDO S. PANTIGA RAUL A. Y OTROS HOTEL LOS ACANTILADOS S.H."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 20000000,
+      "fecha": "29/10/2026",
+      "monto": 10000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+      "obs": "RICARTE PAMELA GISELE"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 20000000,
+      "fecha": "30/10/2026",
+      "monto": 10000000,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+      "obs": "RICARTE PAMELA GISELE"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 2134721.79,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "ROTH SRL"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 1328145.45,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SAN MARCOS E. S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -476,17 +693,66 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 4274007.18,
+      "fecha": "26/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "28/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "30/10/2026",
+      "monto": 20000000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SERVICIOS PORTUARIOS INTEGRADOS S.A."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 7480023.4,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "SIMONAZZI HUGO OMAR"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "23/10/2026",
+      "monto": 353567.09,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "SOLUCIONES NAVALES S.R.L"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 1742880,
+      "fecha": "26/10/2026",
+      "monto": 25891469.4,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "TAGLIARINI RUBEN OMAR"
+      "obs": "TALLER MCM S.R.L"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -497,24 +763,45 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 2258925.5,
+      "fecha": "28/10/2026",
+      "monto": 15451857.07,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "TECNOPESCA ARGENTINA SA"
+      "obs": "TECNO SIM SOCIEDAD ANONIMA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 1844477.68,
+      "fecha": "26/10/2026",
+      "monto": 1921583.11,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "TKW S.A."
+      "obs": "TELMEX ARGENTINA SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 1368308.7,
+      "fecha": "29/10/2026",
+      "monto": 620705.01,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "TREMBLAY S.R.L."
+      "obs": "TODO BOMBAS S. R. L."
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "27/10/2026",
+      "monto": 2200000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "TRAUTMAN YAMILA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "26/10/2026",
+      "monto": 850000,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "UNIVERSIDAD NACIONAL DE MAR DEL PLATA"
+    },
+    {
+      "sector": "PROVEEDORES - ALFONSO",
+      "fecha": "29/10/2026",
+      "monto": 3352353.25,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "URK SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
@@ -525,218 +812,62 @@
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "22/10/2026",
-      "monto": 365585.67,
+      "fecha": "27/10/2026",
+      "monto": 2084411.16,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "VILLAR MARCELA NOELIA"
+      "obs": "VIENTOS DE LUNA S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 10822348.54,
+      "fecha": "28/10/2026",
+      "monto": 9396897.22,
       "concepto": "Orden de Pago-Proveedores",
-      "obs": "VIOMAR S.A.I.C."
+      "obs": "XYLEM WATER SOLUTIONS ARGENTINA SRL"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 93510070.65,
+      "fecha": "26/10/2026",
+      "monto": 67604723.23,
       "concepto": "Orden de Pago-Proveedores",
       "obs": "YPF S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 94460.06,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
+      "fecha": "30/10/2026",
+      "monto": 5079991.85,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "YPF S.A."
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 94460.06,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
+      "fecha": "27/10/2026",
+      "monto": 2646457.38,
+      "concepto": "Orden de Pago-Proveedores",
+      "obs": "ZAGAS PROFESIONAL SA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 298561.27,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
+      "fecha": "23/10/2026",
+      "monto": 799738.18,
+      "concepto": "ORDEN DE PAGO - TESORERIA",
+      "obs": "ORDEN DE PAGO - TESORERIA"
     },
     {
       "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 192022.68,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 373201.59,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 102908.21,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 1224430.06,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 206338.21,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 13473.08,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 139152.15,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 367846.61,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 110029.68,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "21/10/2026",
-      "monto": 94881.76,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 627600.33,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 1255200.66,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 836800.44,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 1046000.55,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 753120.4,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 4000,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 453251.96,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 602834.89,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "19/10/2026",
-      "monto": 702992.91,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 254506.41,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 185752.08,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 248600.25,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 196394.2,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
-    },
-    {
-      "sector": "PROVEEDORES - ALFONSO",
-      "fecha": "20/10/2026",
-      "monto": 257922.76,
-      "concepto": "PAGO SUELDOS Y JORNALES",
-      "obs": "PAGO SUELDOS Y JORNALES"
+      "fecha": "26/10/2026",
+      "monto": 1110000,
+      "concepto": "Retiros particulares Directores y Accionistas",
+      "obs": "Retiros particulares Directores y Accionistas"
     }
   ],
   "manualValues": {
-    "IMPORTACIONES": {},
-    "OTROS GASTOS": {}
+    "IMPORTACIONES": {
+      "26/10/2026": 80000000
+    },
+    "OTROS GASTOS": {
+      "26/10/2026": 331600000,
+      "27/10/2026": 160000000
+    }
   },
   "manualDates": []
 }
