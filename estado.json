@@ -1,6 +1,6 @@
 {
   "fxRate": 1520,
-  "weekLabel": "Viernes 23/10 - Viernes 30/10",
+  "weekLabel": "Marte 27/10 - Viernes 30/10",
   "disponibilidad": [
     [
       "Bancos",
@@ -10,7 +10,7 @@
     [
       "Divisas en bancos",
       0,
-      1841072
+      2278999.97
     ],
     [
       "Cobranza*",
@@ -989,7 +989,8 @@
   "manualValues": {
     "IMPORTACIONES": {},
     "OTROS GASTOS": {
-      "27/10/2026": 160000000
+      "29/10/2026": 200000000,
+      "30/10/2026": 1600000000
     }
   },
   "manualDates": []
